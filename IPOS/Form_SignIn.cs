@@ -127,10 +127,7 @@ namespace IPOS
                         // Lưu vào session
                         Session.CurrentUserId = userId;
                         Session.CurrentUserFullName = fullname;
-                        Session.CurrentUserRole = role;
-
-                        MessageBox.Show($"Đăng nhập thành công!\nXin chào: {fullname}", "IPOS", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                        
                         Form_Table mainForm = new Form_Table();
                         mainForm.Show();
                         this.Hide();

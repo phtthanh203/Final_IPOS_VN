@@ -73,20 +73,20 @@ namespace IPOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Table_Free {
+        internal static System.Drawing.Bitmap Screenshot_2025_06_11_012913 {
             get {
-                object obj = ResourceManager.GetObject("Table_Free", resourceCulture);
+                object obj = ResourceManager.GetObject("Screenshot_2025_06_11_012913", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Table_Free_png {
+        internal static System.Drawing.Bitmap Table_Free {
             get {
-                object obj = ResourceManager.GetObject("Table_Free.png", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("Table_Free", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
